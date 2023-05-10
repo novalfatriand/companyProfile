@@ -67,7 +67,7 @@
     box-shadow: 5px 10px 30px #929292;
 }
 .navbarScroll {
-    background-color: #e6e4ff;
+    background-color: #ffffff;
 }
 
 
@@ -153,7 +153,7 @@
     width: 100%;
     border: none;
     outline: none;
-    background: #e0e0e0;
+    background: #e9e9e9;
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
@@ -161,12 +161,12 @@
 .contact-form input:hover, .contact-form input:focus, .contact-form input:active {
     border: none;
     outline: none;
-    background: #e0e0e0;   
+    background: #e9e9e9;   
 }
 .contact-form textarea:hover, .contact-form textarea:active, .contact-form textarea:focus {
     border: none;
     outline: none;
-    background: #e0e0e0;   
+    background: #e9e9e9;   
 }
 .contact-form textarea {
     resize: none;
@@ -201,7 +201,6 @@
 
 /* Location Float start */
 .locationFloat {
-    padding-left: 10px;
     margin: auto;
     margin-top: -70px;
     height: 150px;
@@ -350,6 +349,7 @@
     }
     .boxCard {
         margin-top: 30px;
+        width: 80%;
     }
     .lastCard {
         margin-bottom: 130px;
@@ -379,8 +379,18 @@
         width: 150px;
         height: auto;
     }
-    .navbarOption {
+    .navbarToggler {
         display: none !important;
+    }
+    .textLocationHeader {
+        margin-top: 20px;
+    }
+    .textLocationParagraf {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .boxParagraf {
+        margin-bottom: 10px;
     }
 }
 
