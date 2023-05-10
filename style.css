@@ -1,0 +1,387 @@
+/* Main CSS */
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Section Home Start */
+.secHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 665px;
+    margin-top: 0px;
+    background-image: url(assets/bg/BackgroundHeroNew.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+.secHome::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    bottom: -2px;
+    left: 0;
+    background: linear-gradient(to top, #232946, #23294600);
+    z-index: 2;
+}
+.navbar {
+    transition: all 0.5s;
+}
+.navbarHeader {
+    height: 85px;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.buttonNavContact {
+    border-radius: 20px;
+    width: 120px;
+}
+.navbarLogo {
+    width: 190px;
+    height: auto;
+}
+.containerHome {
+    margin-top: 75px;
+    z-index: 3;
+}
+.headerText {
+    margin-top: -70px;
+    color: #005a9d;
+    font-weight: 700;
+}
+.subHeaderPrimary {
+    margin-top: 20px;
+    font-weight: 300;
+    color: #0d1846;
+}
+.buttonServices {
+    margin-top: 10px;
+    height: 50px;
+    width: 180px; /* 150px Original*/
+    font-size: 16px;
+    border-radius: 9px;
+    box-shadow: 5px 10px 30px #929292;
+}
+.navbarScroll {
+    background-color: #e6e4ff;
+}
+
+
+/* Section Services Start */
+.secServices {
+    background-color: #232946;
+    min-height: 700px;
+    z-index: 4;
+}
+.textServices {
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 700;
+    color: #fff;
+}
+.boxCard {
+    margin-top: 60px;
+    height: 360px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 5px 9px 30px #242424;
+}
+.cardTest {
+    margin-left: 25px;
+}
+.lastCard {
+    margin-bottom: 70px;
+}
+.boxHeader {
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.boxParagraf {
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Section Contact Start */
+.secContact {
+    background-color: #fff;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textContactHeader {
+    margin-top: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-container {
+    margin-top: 20px !important;
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    background: #ffffff;
+    box-shadow: 5px 10px 30px 2px #9b9b9b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.form-container {
+    padding: 20px;
+}
+.form-container h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact-form {
+    display: grid;
+    row-gap: 3px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #e0e0e0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.contact-form input:hover, .contact-form input:focus, .contact-form input:active {
+    border: none;
+    outline: none;
+    background: #e0e0e0;   
+}
+.contact-form textarea:hover, .contact-form textarea:active, .contact-form textarea:focus {
+    border: none;
+    outline: none;
+    background: #e0e0e0;   
+}
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+.contact-form button {
+    border-radius: 10px;
+    height: 50px;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 964px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+@media (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 20rem !important;
+    }
+    .map iframe {
+        height: 400px;
+    }
+}
+
+
+/* Location Float start */
+.locationFloat {
+    padding-left: 10px;
+    margin: auto;
+    margin-top: -70px;
+    height: 150px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px 2px #9b9b9b;
+    z-index: 5;
+}
+.textLocationHeader {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.textLocationParagraf {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* Button Back */
+.divBack {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.buttonBack {
+    width: 230px;
+    height: 70px;
+    background-color: #0000008f;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+
+/* Section Footer start */
+.secFooter {
+    background-color: #000000;
+    min-height: 200px;
+    padding-top: 60px;
+}
+.containerFooter {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logoFooter {
+    margin: auto;
+    width: 180px;
+}
+.footerHeader {
+    color: #ffffff;
+    margin-top: 50px;
+}
+.social-media {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.logoSocmed {
+    color: #ffffff;
+}
+.bi-youtube {
+    font-size: 25px;
+    margin-top: 30px !important;
+}
+.bi-instagram {
+    margin-top: -20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footerParagraf {
+    font-size: 15px;
+    color: #d4d4d4;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.alertBerhasil {
+    border-radius: 15px;
+}
+.spinAnimation {
+    margin-right: 10px;
+}
+
+
+/* Entry Point */
+@media screen and (max-width: 1200px) {
+    .boxCard {
+        margin-top: 30px;
+    }
+    .lastCard {
+        margin-bottom: 130px;
+    }
+    .locationFloat {
+        width: 95%;
+    }
+    .textContactHeader {
+        margin-top: 70px;
+    }
+    .contact-container {
+        margin-top: 20px !important;
+        margin-bottom: 50px;
+    }
+    .buttonBack {
+        margin-bottom: 50px;
+    }
+}
+/* Tablet Version */
+@media screen and (max-width: 770px) {
+    .cardTest {
+        margin-left: 0px;
+    }
+    .boxCard {
+        margin-top: 30px;
+    }
+    .lastCard {
+        margin-bottom: 130px;
+    }
+    .locationFloat {
+        width: 95%;
+    }
+    .textContactHeader {
+        margin-top: 70px;
+    }
+    .contact-container {
+        margin-top: 20px !important;
+        margin-bottom: 50px;
+    }
+    .buttonBack {
+        margin-bottom: 50px;
+    }
+}
+/* Android Version */
+@media screen and (max-width: 420px) {
+    .secHome {
+        text-align: center;
+    }
+    .cardTest {
+        margin-left: 0px;
+    }
+    .boxCard {
+        margin-top: 30px;
+    }
+    .lastCard {
+        margin-bottom: 130px;
+    }
+    .locationFloat {
+        width: 95%;
+    }
+    .textContactHeader {
+        margin-top: 70px;
+    }
+    .contact-container {
+        margin-top: 20px !important;
+        margin-bottom: 50px;
+    }
+    .buttonBack {
+        margin-bottom: 50px;
+    }
+    .footerHeader {
+        color: #d4d4d4;
+    }
+    .footerParagraf {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    .navbarLogo {
+        margin-left: 10px;
+        width: 150px;
+        height: auto;
+    }
+    .navbarOption {
+        display: none !important;
+    }
+}
+
+/* Created, Designed, and Develop by Noval Fatriand */
