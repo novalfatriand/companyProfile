@@ -101,28 +101,28 @@
         font-size: 18px;
     }
     .divButton {
-        position: static;
-        bottom: 200px;
+        position: relative;
+        bottom: -10px;
     }
     .button-siarankosong {
-        bottom: -120px;
+        bottom: 30px !important;
     }
     .divButton2 {
-        bottom: -920px;
-        position: static;
+        bottom: -35px !important;
+        position: relative;
     }
     .button-cmms {
-        bottom: -570px;
-    }
-    .button-capacitor-bank {
-        bottom: -1270px !important;
+        bottom: 25px !important;
     }
     .divButton3 {
-        bottom: -1620px;
-        position: static;
+        bottom: -40px;
+        position: relative;
+    }
+    .button-capacitor-bank {
+        bottom: -10px !important;
     }
     .divButton4 {
-        bottom: -1970px;
-        position: static;
+        bottom: -50px !important;
+        position: relative;
     }
 }
