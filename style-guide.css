@@ -74,7 +74,7 @@
 /* Section Services Start */
 .section-services {
     background-color: var(--warna-utama);
-    min-height: 1200px;
+    min-height: 1150px;
     z-index: 4;
 }
 .text-services {
@@ -146,6 +146,38 @@
 }
 .icon-arrow {
     margin-right: 10px;
+}
+
+
+/* Section Client Start */
+.client-section {
+    background-color: #141829;
+    min-height: 950px;
+    padding-top: 130px;
+    text-align: center;
+}
+.header-client {
+    color: #ff6e6c;
+    letter-spacing: 1px;
+}
+.subheader-client {
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 900;
+}
+.carousel-client {
+    margin-top: 60px;
+}
+.client-description {
+    background-color: #232946;
+    color: #ffffff;
+}
+.client-location-header {
+    margin-top: 10px;
+    font-weight: 700;
+}
+.carousel-android {
+    display: none !important;
 }
 
 
@@ -461,7 +493,30 @@
         margin-bottom: 70px;
     }
     .section-services {
-        min-height: 1950px !important;
+        min-height: 1850px !important;
+    }
+    .client-section {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .carousel-client {
+        margin-top: 40px !important;
+    }
+    .carousel-android-second-card {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .client-card {
+        margin-bottom: 70px !important;
+    }
+    .subheader-client {
+        font-weight: 400;
+    }
+    .carousel-android {
+        display: block !important;
+    }
+    .carousel-desktop {
+        display: none !important;
     }
 }
 
