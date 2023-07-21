@@ -179,6 +179,9 @@
 .carousel-android {
     display: none !important;
 }
+.thumbnail-video-android {
+    display: none !important;
+}
 
 
 /* Section Contact Start */
@@ -516,6 +519,12 @@
         display: block !important;
     }
     .carousel-desktop {
+        display: none !important;
+    }
+    .thumbnail-video-android {
+        display: block !important;
+    }
+    .thumbnail-video-desktop {
         display: none !important;
     }
 }
